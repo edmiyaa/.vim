@@ -13,6 +13,10 @@ endif
 " Define plugins to be installed
 call plug#begin()
 Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " Install plugins if the init flag was set
