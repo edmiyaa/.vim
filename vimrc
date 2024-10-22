@@ -19,3 +19,15 @@ exec 'source ' . g:vimrc_dir . '/plugins.vim'
 
 exec 'source ' . g:vimrc_dir . '/config.vim'
 
+"#############
+"# FUNCTIONS #
+"#############
+
+exec 'source ' . g:vimrc_dir . '/functions.vim'
+
+"############
+"# MAPPINGS #
+"############
+
+exec 'source ' . g:vimrc_dir . '/mappings.vim'
+
