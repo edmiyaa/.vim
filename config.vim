@@ -28,6 +28,7 @@ set softtabstop=4
 set expandtab
 
 set autoindent
+set nowrap
 set mouse=
 set nostartofline
 set autochdir
