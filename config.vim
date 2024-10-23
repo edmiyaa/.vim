@@ -4,8 +4,10 @@ set guioptions=
 set shortmess=I
 
 " Start gvim in fullscreen mode
-set lines=999
-set columns=999
+if has('gui_running')
+    set lines=999
+    set columns=999
+endif
 
 set number
 set relativenumber
