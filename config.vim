@@ -33,3 +33,4 @@ set mouse=
 set nostartofline
 set autochdir
 set noswapfile
+set clipboard=unnamedplus
