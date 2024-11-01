@@ -9,3 +9,8 @@ fun! EditFromClipboard()
     exec 'silent e ' . path
     echom 'Editing path from clipboard: ' . path
 endf
+
+fun! OpenFolder(path)
+    exec '!xdg-open ' . a:path
+endf
+
