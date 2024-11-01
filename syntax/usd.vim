@@ -45,13 +45,13 @@ syntax keyword usdListOperator append delete prepend
 highlight link usdListOperator Include
 
 syntax match usdVersion "\v^#usda.*"
-highlight link usdVersion WildMenu
+highlight link usdVersion CursorLine
 
 syntax match usdString "\v\".*\""
 highlight link usdString Identifier
 
 syntax match usdAssetPath "\v\@.*\@"
-highlight link usdAssetPath Underlined
+highlight link usdAssetPath Wildmenu
 
 syntax match usdNumber "\v<-?([0-9]*\.)?[0-9]+>"
 highlight link usdNumber Special
