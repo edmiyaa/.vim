@@ -4,13 +4,17 @@ fun! CopyCurrentFilepath()
     echom 'Copied current filepath: ' . current_filepath
 endf
 
+fun! CopyAllLinesToClipboard()
+    exec '%y+'
+endf
+
 fun! EditFromClipboard()
     let path = trim(@+, "\"'")
     exec 'silent e ' . path
     echom 'Editing path from clipboard: ' . path
 endf
 
-fun! OpenFolder(path)
+fun! OpenDir(path)
     exec '!xdg-open ' . a:path
 endf
 
