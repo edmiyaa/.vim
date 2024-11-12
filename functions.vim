@@ -15,6 +15,6 @@ fun! EditFromClipboard()
 endf
 
 fun! OpenDir(path)
-    exec '!xdg-open ' . a:path
+    exec 'silent !xdg-open ' . a:path
 endf
 
