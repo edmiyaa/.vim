@@ -13,6 +13,12 @@ let mapleader = "\<Space>"
 
 exec 'source ' . g:vimrc_dir . '/plugins.vim'
 
+"#################
+"# PLUGIN CONFIG #
+"#################
+
+exec 'source ' . g:vimrc_dir . '/plugin_config.vim'
+
 "##########
 "# CONFIG #
 "##########

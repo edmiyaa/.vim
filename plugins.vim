@@ -17,6 +17,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
+Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " Install plugins if the init flag was set
