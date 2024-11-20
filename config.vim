@@ -3,10 +3,22 @@ set bg=dark
 set guioptions=
 set shortmess=I
 
-" Start gvim in fullscreen mode
-if has('gui_running')
-    set lines=999
-    set columns=999
+if has('win32')
+    set backspace=indent,eol,start
+    set clipboard=unnamed
+    set belloff=all
+    if has('gui_running')
+        set guifont=Consolas:h11
+        " Start gvim in fullscreen mode
+        autocmd GUIEnter * simalt ~x
+    endif
+elseif has('unix')
+    set clipboard=unnamedplus
+    if has('gui_running')
+        " Start gvim in fullscreen mode
+        set lines=999
+        set columns=999
+    endif
 endif
 
 set number
@@ -34,4 +46,4 @@ set mouse=
 set nostartofline
 set autochdir
 set noswapfile
-set clipboard=unnamedplus
+
