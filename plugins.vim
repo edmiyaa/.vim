@@ -15,6 +15,7 @@ endif
 
 " Define plugins to be installed
 call plug#begin()
+Plug 'edmiyaa/vim-pixar-usd'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -29,3 +30,4 @@ call plug#end()
 if init == 1
     silent PlugInstall
 endif
+
