@@ -1,3 +1,6 @@
+" Redefine mapleader before installing any plugins
+let mapleader = "\<Space>"
+
 let vimplug_url = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 let vimplug_path = g:vimrc_dir . '/autoload/plug.vim'
 let init = 0

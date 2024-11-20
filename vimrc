@@ -2,14 +2,11 @@
 "# GLOBALS #
 "###########
 
-let g:vimrc_dir = fnamemodify($MYVIMRC, ':p:h')
+exec 'source ' . fnamemodify($MYVIMRC, ':p:h') . '/globals.vim'
 
 "###########
 "# PLUGINS #
 "###########
-
-" Redefine mapleader before installing any plugins
-let mapleader = "\<Space>"
 
 exec 'source ' . g:vimrc_dir . '/plugins.vim'
 
