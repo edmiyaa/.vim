@@ -23,6 +23,6 @@ nnoremap <leader>tc :tabclose<CR>
 " Buffers
 nnoremap <leader>bl :bnext<CR>
 nnoremap <leader>bh :bprevious<CR>
-nnoremap <leader>bc :bclose<CR>
+nnoremap <leader>bc :bdelete<CR>
 nnoremap <leader>bb :Buffers<CR>
 
