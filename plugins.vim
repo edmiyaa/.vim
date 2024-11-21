@@ -16,14 +16,14 @@ endif
 " Define plugins to be installed
 call plug#begin()
 Plug 'edmiyaa/vim-pixar-usd'
-Plug 'morhetz/gruvbox'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-commentary'
-Plug 'vim-airline/vim-airline'
-Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-sneak'
+Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " Install plugins if the init flag was set
