@@ -9,3 +9,8 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 " fzf
 let $FZF_DEFAULT_OPTS = '--wrap --exact'
 
+" vim-gitgutter
+let g:gitgutter_map_keys = 0
+set signcolumn=yes
+set updatetime=100
+

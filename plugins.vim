@@ -15,6 +15,7 @@ endif
 
 " Define plugins to be installed
 call plug#begin()
+Plug 'airblade/vim-gitgutter'
 Plug 'edmiyaa/vim-pixar-usd'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
