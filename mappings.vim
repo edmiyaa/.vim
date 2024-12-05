@@ -26,3 +26,9 @@ nnoremap <leader>bh :bprevious<CR>
 nnoremap <leader>bc :bdelete<CR>
 nnoremap <leader>bb :Buffers<CR>
 
+" Run code
+nnoremap <leader>xp :w<CR>:!python %<CR>
+
+" Browse files
+nnoremap <leader>n :NERDTree<CR>
+
