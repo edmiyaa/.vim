@@ -1,6 +1,7 @@
 " Editing suff
 nnoremap <leader>ev :e! $MYVIMRC<CR>
 nnoremap <leader>ec :call EditFromClipboard()<CR>
+nnoremap <leader>eo :browse oldfiles<CR>
 
 " Opening stuff
 nnoremap <leader>od :call OpenDir(expand('%:p:h'))<CR>
